@@ -14,3 +14,4 @@ As you may already noticed, we have to folders for docs. One on the root of this
 [read more...](/docs/docs.md)
 
 ## Contributing
+Our completely platform is open source. This means, contributers are highly welcomed. 
