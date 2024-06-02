@@ -1,0 +1,11 @@
+# DON'T EDIT!
+# The .gitignore is a file which excludes files from our github repo. Please don't edit this file. 
+
+# lockfiles, please exclude them
+yarn.lock
+pnpm.yaml
+bun.lockb
+package-lock.json
+
+# Node_modules, please download them manually
+node_modules
