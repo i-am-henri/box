@@ -1,6 +1,8 @@
 # DON'T EDIT!
 # The .gitignore is a file which excludes files from our github repo. Please don't edit this file. 
 
+# Global:
+
 # lockfiles, please exclude them
 yarn.lock
 pnpm.yaml
@@ -9,3 +11,50 @@ package-lock.json
 
 # Node_modules, please download them manually
 node_modules
+
+# env files, please use !ONLY .env FILES!, not .env.local or smthg. like that
+.env
+
+# NextJS:
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# database
+/prisma/db.sqlite
+/prisma/db.sqlite-journal
+db.sqlite
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+# do not commit any .env files to git, except for the .env.example file. https://create.t3.gg/en/usage/env-variables#using-environment-variables
+.env
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+
+# Server:
