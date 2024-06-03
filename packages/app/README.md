@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://box.henri.gg">
-    <h1>box - Website </h1>
+    <h1 align="center">box - Website </h1>
   </a>
 </p>
 
