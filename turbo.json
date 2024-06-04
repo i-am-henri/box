@@ -9,6 +9,11 @@
     "lint": {
       "dependsOn": ["^lint"]
     },
+    "typecheck": {
+      "outputs": [
+        "tsconfig.tsbuildinfo"
+      ]
+    },
     "dev": {
       "cache": false,
       "persistent": true
