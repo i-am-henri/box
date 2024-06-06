@@ -1,9 +1,14 @@
-import type { Config } from "tailwindcss";
-import sharedConfig from "@repo/ui";
+import { Config } from "prettier";
+import { fontFamily } from "tailwindcss/defaultTheme";
 
-const config: Pick<Config, "content" | "presets"> = {
-  content: ["./src/app/**/*.tsx"],
-  presets: [sharedConfig],
-};
-
-export default config;
+export default {
+  content: ["./src/**/*.tsx"],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ["var(--font-geist-sans)", ...fontFamily.sans],
+      },
+    },
+  },
+  plugins: [],
+} satisfies Config
