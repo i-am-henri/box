@@ -1,7 +1,7 @@
 import DarkModeSvg from "public/box-light.svg"
 import LightModeSvg from "public/box.svg"
 import Img from "next/image"
-import {Button} from "@repo/ui/button"
+import {Button} from "@repo/ui/src/button"
 import Link from "next/link"
 export default function Navigation() {
     return (
@@ -12,7 +12,7 @@ export default function Navigation() {
             <nav>
                 <Link href="/features">features</Link>
                 <Link href="/pricing">pricing</Link>
-                <Button appName="hey">hey</Button>
+                <Button>hey</Button>
             </nav>
         </header>
     )
