@@ -1,7 +1,6 @@
 import DarkModeSvg from "public/box-light.svg"
 import LightModeSvg from "public/box.svg"
 import Img from "next/image"
-import {Card} from "@repo/ui/card"
 import Link from "next/link"
 export default function Navigation() {
     return (
@@ -12,9 +11,6 @@ export default function Navigation() {
             <nav>
                 <Link href="/features">features</Link>
                 <Link href="/pricing">pricing</Link>
-                <Card href="/hey" title="hallo" key={"wow"}>
-                    wow
-                </Card>
             </nav>
         </header>
     )

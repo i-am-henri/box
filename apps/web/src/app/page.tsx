@@ -1,6 +1,4 @@
-import { Card } from "@repo/ui/card";
 import Navigation from "~/components/Navigation/nav";
-
 export default function Home() {
   return (
     <div className="flex flex-col items-center w-full bg-neutral-50  text-neutral-700 dark:text-neutral-300 dark:bg-neutral-950 min-h-screen">
@@ -9,9 +7,6 @@ export default function Home() {
         <h2 className="text-4xl text-neutral-700 dark:text-neutral-300">
           box
         </h2>
-        <Card href="https://henri.gg" title="my site">
-           my portfolio
-        </Card>
       </div>
     </div>
   )
