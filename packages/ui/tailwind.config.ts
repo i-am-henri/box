@@ -1,4 +1,4 @@
-import { Config } from "prettier";
+import { type Config } from "prettier";
 import { fontFamily } from "tailwindcss/defaultTheme";
 
 export default {

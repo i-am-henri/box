@@ -1,3 +1,4 @@
+import { Card } from "@repo/ui/card";
 import Navigation from "~/components/Navigation/nav";
 
 export default function Home() {
@@ -8,6 +9,9 @@ export default function Home() {
         <h2 className="text-4xl text-neutral-700 dark:text-neutral-300">
           box
         </h2>
+        <Card href="https://henri.gg" title="my site">
+           my portfolio
+        </Card>
       </div>
     </div>
   )
