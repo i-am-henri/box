@@ -3,9 +3,16 @@ import { notFound } from "next/navigation";
 import matter from "gray-matter"
 import fs from "node:fs"
 import z from "zod"
-
+interface Author {
+    name: string,
+    links?: string[],
+    image?: string
+}
 export interface FrontMatter {
-    title: string
+    title: string,
+    description: string,
+    image?: string,
+    authors: Author[],
 }
 const FrontMatterSchema = z.object({
     title: z.string()

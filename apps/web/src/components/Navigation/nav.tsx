@@ -11,6 +11,7 @@ export default function Navigation() {
             </Link>
             <nav className="flex space-x-3">
                 <Link href="/features">features</Link>
+                <Link href="/blog">blog</Link>
                 <Link href="/pricing">pricing</Link>
                 <Button variant={"secondary"} className=" bg-gradient-to-r from-blue-500 via-violet-500 to-emerald-500 transition bg-buttonAnimation background-hover ">
                     register
