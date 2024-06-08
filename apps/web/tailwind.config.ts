@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      backgroundPosition: {
+        buttonAnimation: "0% 50%"
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

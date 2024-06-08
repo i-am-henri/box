@@ -27,7 +27,19 @@ export default function Home() {
         </div>
       </div>
       <div className="w-full mx-1 mt-8 md:mx-3 md:w-[650px] lg:w-[800px]">
-        <Image className="rounded-xl z-10" src={Sandbox} alt="sandbox" />
+        <Image className="rounded-xl z-10 drop-shadow" src={Sandbox} alt="sandbox" />
+      </div>
+      <div className="w-full mx-5 mt-4 flex flex-col  md:mx-7 md:w-[600px] lg:w-[700px] z-20">
+        <hr className="border-b border-t-0 border-b-neutral-700 dark:border-b-neutral-300" />
+        <h2 className="text-center mb-4 mt-2">
+          trusted by companys & schools
+        </h2>
+        <div className="flex justify-between">
+          <h3 className="text-white text-xl font-medium">company 1</h3>
+          <h3 className="text-white text-xl font-medium">company 2</h3>
+          <h3 className="text-white text-xl font-medium">company 3</h3>
+          <h3 className="text-white text-xl font-medium">company 4</h3>
+        </div>
       </div>
     </div>
   )
