@@ -1,0 +1,9 @@
+{
+    "routes": [
+        {
+            "name": "features"
+        }
+    ],
+    "contentDir": "content",
+    "useTabGroupe": true
+}
