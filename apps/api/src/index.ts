@@ -8,12 +8,8 @@ import { Hono } from 'hono'
 import isolatedVm from "isolated-vm"
 import Handler from './handler'
 
-
 /**The app class, here you can add new routes. */
 export const app = new Hono()
-
-
-
 
 // importing the routes from the "/routes" folder
 Handler()
