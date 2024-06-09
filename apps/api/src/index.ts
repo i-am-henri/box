@@ -16,9 +16,11 @@ Handler()
 
 /**The port, where the hono server launches */
 const port = 4000
+
 console.log(` 
 ${"Server is running. Please go to http://localhost:" + port}`)
 
+// Creating the server
 serve({
   fetch: app.fetch,
   port
