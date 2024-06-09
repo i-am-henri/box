@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "@hono/node-server": "^1.11.2",
-    "hono": "^4.4.3"
+    "hono": "^4.4.3",
+    "isolated-vm": "^5.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.14.1",
