@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "dependencies": {
+    "utils": "workspace:*"
+  },
   "devDependencies": {
     "drizzle-orm": "^0.33.0",
     "postgres": "^3.4.4"
